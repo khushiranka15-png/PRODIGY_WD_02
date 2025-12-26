@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 10px gray;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#time {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: lightblue;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps ul {
+    list-style: none;
+    padding-left: 0;
+}
